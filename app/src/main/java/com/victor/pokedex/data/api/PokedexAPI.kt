@@ -1,7 +1,7 @@
 package com.victor.pokedex.data.api
 
-import com.victor.pokedex.data.api.responses.Pokemon
-import com.victor.pokedex.model.PokemonList
+import com.victor.pokedex.data.api.responses.pokemon.description.Pokemon
+import com.victor.pokedex.data.api.responses.pokemon.PokemonList
 import retrofit2.http.GET
 import retrofit2.http.Path
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.victor.pokedex.ui.fragments.MainFragment"
+        android:name="com.victor.pokedex.presenter.ui.fragments.MainFragment"
         android:label="main_fragment"
         tools:layout="@layout/main_fragment" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/pokemonFragment"
-        android:name="com.victor.pokedex.ui.fragments.PokemonFragment"
+        android:name="com.victor.pokedex.presenter.ui.fragments.PokemonFragment"
         android:label="fragment_pokemon"
         tools:layout="@layout/fragment_pokemon" >
         <argument
